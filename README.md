@@ -1,27 +1,26 @@
-# PostsApp
+# User Function - aplicação simples com acesso à conteúdo externo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
+### Screenshot Desktop
 
-## Development server
+![](./src/assets/desktop.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+ <h3>Screenshot Mobile</h3>
 
-## Code scaffolding
+![](./src/assets/mobile.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## My process
 
-## Build
+### Built with
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Semantic HTML5 markup
+- SCSS custom properties
+- Media queries
+- Flexbox
+- TypeScript
+- Angular
+- Angular Reactive forms
+- Rxjs
 
-## Running unit tests
+### Continued development
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Eu gostaria de me aprofundar no web design para dispositivos móveis e criar aplicativos cada vez mais responsivos, em projetos onde eu pudesse usar frameworks baseados em componentes.

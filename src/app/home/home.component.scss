@@ -1,0 +1,83 @@
+.container {
+  margin-left: 475px;
+  margin-top: 90px;
+  width: 700px;
+}
+
+.post-wrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  min-height: 200px;
+  width: 700px;
+  margin-bottom: 30px;
+}
+
+.post-wrapper:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.post-title {
+  padding-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.post-body {
+  padding-left: 20px;
+  margin-top: 20px;
+  max-width: 650px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.pagination ::ng-deep .ngx-pagination .current {
+  background: rgb(64, 111, 240);
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 1230px) {
+  .container {
+    margin-left: 275px;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .container {
+    margin-left: 175px;
+  }
+
+  .post-wrapper {
+    width: 500px;
+  }
+
+  .post-body {
+    max-width: 460px;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .container {
+    margin-left: 20px;
+  }
+
+  .post-wrapper {
+    width: 440px;
+  }
+
+  .post-title {
+    max-width: 390px;
+  }
+
+  .post-body {
+    max-width: 390px;
+  }
+}

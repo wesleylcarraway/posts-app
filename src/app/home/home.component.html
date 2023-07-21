@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="post-wrapper" *ngFor="let post of data | paginate: { itemsPerPage: this.counter, currentPage: this.pag }" (click)="navigateToPostView(post.id)">
+    <div class="post-title">{{post.title}}</div>
+    <div class="post-body">{{post.body}}</div>
+  </div>
+
+  <div class="pagination">
+    <pagination-controls
+		(pageChange)="this.pag = $event"
+		previousLabel="Anterior"
+		nextLabel="Próxima"></pagination-controls>
+  </div>
+</div>
