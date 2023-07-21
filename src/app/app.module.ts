@@ -9,13 +9,15 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { PostComponent } from './post/post.component';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    PostComponent
+    PostComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,
@@ -23,7 +25,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
     HttpClientModule,
     MatIconModule,
     MatToolbarModule,
-    NgxPaginationModule
+    NgxPaginationModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

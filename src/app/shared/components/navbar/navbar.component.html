@@ -1,7 +1,9 @@
 <div class="navbar">
   <div class="logo" routerLink="home">Postsapp</div>
   <div class="search-bar">
-    <input class="searchInput" type="text" placeholder="Pesquisar Post">
-    <button class="search-btn"><img src="../../../../assets/searchIcon.svg" alt="search icon" width="30px" height="30px"></button>
+
+      <input type="submit" class="searchInput" type="text" placeholder="Pesquisar Post" (keyup)="onKey($event)">
+      <button class="search-btn"><img src="../../../../assets/searchIcon.svg" alt="search icon" width="30px" height="30px" (click)="search()"></button>
+
   </div>
 </div>
