@@ -19,7 +19,6 @@ export class PostComponent {
     private router: Router,
   )
   {
-
   }
 
   async ngOnInit(): Promise<void> {
