@@ -1,5 +1,5 @@
-<div class="container" >
-  <div class="post-wrapper" *ngFor="let post of data">
+<div class="container">
+  <div class="post-wrapper" *ngFor="let post of data" (click)="navigateToPostView(post.id)">
     <div class="post-title">{{post.title}}</div>
     <div class="post-body">{{post.body}}</div>
   </div>
