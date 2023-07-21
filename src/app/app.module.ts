@@ -7,12 +7,14 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
