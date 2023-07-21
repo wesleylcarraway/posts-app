@@ -1,1 +1,11 @@
-<<p>post works!</p>>
+<div class="container">
+  <div class="post-wrapper">
+    <div class="return-to-home">
+      <img (click)="navigateToHome()" class="backIcon" src="../../assets/backIcon.svg">
+    </div>
+    <div class="post-title">{{this.post.title}}</div>
+    <div class="post-body">{{this.post.body}}</div>
+  </div>
+</div>
+
+

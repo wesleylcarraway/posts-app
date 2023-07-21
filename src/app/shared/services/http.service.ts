@@ -17,4 +17,8 @@ export class HttpService<T> {
   getAsync(): Observable<T> {
     return this.http.get<T>(`${this.env.API_URL}/${this.route}`);
   }
+
+  getByIdAsync(id: number): Observable<T> {
+    return this.http.get<T>(`${this.env.API_URL}/${this.route}/${id}`);
+  }
 }
