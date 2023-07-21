@@ -33,3 +33,13 @@
   margin-top: 20px;
   max-width: 650px;
 }
+
+.pagination {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.pagination ::ng-deep .ngx-pagination .current {
+  background: rgb(64, 111, 240);
+  border-radius: 2px;
+}
