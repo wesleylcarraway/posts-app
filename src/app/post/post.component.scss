@@ -46,3 +46,41 @@
   max-width: 650px;
   line-height: 1.8;
 }
+
+@media only screen and (max-width: 1230px) {
+  .container {
+    margin-left: 275px;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .container {
+    margin-left: 175px;
+  }
+
+  .post-wrapper {
+    width: 500px;
+  }
+
+  .post-body {
+    max-width: 460px;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .container {
+    margin-left: 20px;
+  }
+
+  .post-wrapper {
+    width: 440px;
+  }
+
+  .post-title {
+    max-width: 390px;
+  }
+
+  .post-body {
+    max-width: 390px;
+  }
+}

@@ -58,5 +58,50 @@
   cursor: pointer;
 }
 
+@media only screen and (max-width: 1230px) {
+  .navbar {
+    column-gap: 200px;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .navbar {
+    column-gap: 100px;
+  }
+
+  .search-bar{
+    width: 400px;
+  }
+
+  .searchInput {
+    width: 360px;
+  }
+
+  .search-btn {
+    width: 40px;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .navbar {
+    column-gap: 10px;
+  }
+
+  .logo {
+    margin-left: 10px;
+  }
+
+  .search-bar{
+    width: 320px;
+  }
+
+  .searchInput {
+    width: 280px;
+  }
+
+  .search-btn {
+    width: 40px;
+  }
+}
 
 
