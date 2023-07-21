@@ -7,7 +7,7 @@ import { lastValueFrom } from 'rxjs';
 @Component({
   selector: 'app-post',
   templateUrl: './post.component.html',
-  styleUrls: ['./post.component.scss']
+  styleUrls: ['./post.component.scss'],
 })
 export class PostComponent {
   id?: any;
@@ -19,9 +19,11 @@ export class PostComponent {
     private router: Router,
   )
   {
+
   }
 
   async ngOnInit(): Promise<void> {
+
     this.activatedroute.paramMap.subscribe(params => {
       this.id = params.get('id');
     });
@@ -31,4 +33,5 @@ export class PostComponent {
   navigateToHome(): void {
     this.router.navigate(['home']);
   }
+
 }
