@@ -9,6 +9,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+  pag : any = 1 ;
+  counter : any = 5;
   data!: any;
   constructor(
     private PostService: PostService,
@@ -19,11 +21,12 @@ export class HomeComponent {
 
   async ngOnInit(): Promise<void> {
     this.data = await lastValueFrom(this.PostService.getAsync());
-    //console.log(this.data)
   }
 
   navigateToPostView(postId: any): void {
     this.router.navigate(['post', postId]);
   }
+
+
 
 }

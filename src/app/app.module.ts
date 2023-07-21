@@ -8,6 +8,7 @@ import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { PostComponent } from './post/post.component';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PostComponent } from './post/post.component';
     AppRoutingModule,
     HttpClientModule,
     MatIconModule,
-    MatToolbarModule
+    MatToolbarModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
